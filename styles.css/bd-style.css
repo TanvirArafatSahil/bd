@@ -108,8 +108,7 @@
 
 *{
     max-width: 1280px;
-    max-height: 560px;
-    margin-left: 45px;
+    margin: 0px auto;
    
    
 }
@@ -122,6 +121,7 @@ nav ul li{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 
 }
 .heading-second{
@@ -137,6 +137,7 @@ nav ul li{
     align-items: center;
     justify-content: space-between;
     background-color: #C6E4D6;
+    margin-top: 30px;
 }
 .banner-title{
     font: 56px;
@@ -153,4 +154,29 @@ nav ul li{
 .thumble{
     color: #0e0e0e83;
     font-size: 24px;
+}
+
+.pillar-title{
+  margin: 25px 0px 20px;
+}
+.pillar{
+  display: flex;
+  gap: 24px;
+}
+.pillar-container{
+  padding: 24px;
+  box-shadow: 0px 4px 4px 0px #00000034 ;
+  border-radius: 16px;
+  
+}
+.pillar-description{
+  font-size: 16px;
+  margin: 12px 0px 24px;
+}
+.margin{
+  margin: 12px 0px 24px;
+}
+main section{
+  margin-top: 70px;
+  margin-bottom: 130px;
 }
